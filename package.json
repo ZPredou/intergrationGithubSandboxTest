@@ -1,5 +1,10 @@
 {
   "dependencies": {
     "@angular/cli": "^19.2.4"
+  },
+  "scripts": {
+    "dev": "ng serve",
+    "build": "ng build",
+    "preview": "ng test"
   }
 }
