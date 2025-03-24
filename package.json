@@ -1,10 +1,16 @@
 {
   "dependencies": {
-    "@angular/cli": "^19.2.4"
+    "@angular/cli": "^19.2.4",
+    "@angular/core": "^19.2.3",
+    "@angular/platform-browser": "^19.2.3",
+    "@angular/router": "^19.2.3"
   },
   "scripts": {
-    "dev": "ng serve",
-    "build": "ng build",
-    "preview": "ng test"
+    "dev": "yarn ng serve",
+    "build": "yarn ng build",
+    "preview": "yarn ng test"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^19.2.4"
   }
 }
