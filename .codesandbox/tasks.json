@@ -11,25 +11,10 @@
   "tasks": {
     "dev": {
       "name": "dev",
-      "command": "npm dev",
+      "command": "yarn ng serve",
       "runAtStart": true,
       "preview": {
-        "port": 5173
+        "port": 4200
       }
-    },
-    "build": {
-      "name": "build",
-      "command": "npm build",
-      "runAtStart": false
-    },
-    "preview": {
-      "name": "preview",
-      "command": "npm preview",
-      "runAtStart": false
-    },
-    "install": {
-      "name": "install dependencies",
-      "command": "npm install"
     }
-  }
 }
